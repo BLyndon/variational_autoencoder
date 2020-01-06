@@ -8,3 +8,13 @@ The intractable p(**x**|**z**) is approximated by q_phi(**z**|**x**), c.f. mean 
 ### References
 + [A high-bias, low-variance introduction to Machine Learning for physicists](https://arxiv.org/abs/1803.08823)
 + [A Tutorial on Variational Autoencoders with a Concise Keras Implementation](https://tiao.io/post/tutorial-on-variational-autoencoders-with-a-concise-keras-implementation/)
+
+### Plots
+##### Loss (NELBO)
+![](plots/loss.png)
+
+##### MNIST test set embedding in 2-dim space spanned by the latent variable layer
+![](plots/embedding.png)
+
+##### Generated samples
+![](plots/generated_samples.png)
